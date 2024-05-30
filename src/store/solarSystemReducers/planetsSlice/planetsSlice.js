@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit"
 const INITIAL_PLANETS = {
   planets: {
     aboutMe: {
-      orbitRadius: 1000,
+      orbitRadius: 200,
       rotationPeriod: 10,
       orbitalPeriod: 10,
       diameter: 150,

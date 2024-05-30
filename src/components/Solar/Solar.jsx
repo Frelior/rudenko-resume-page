@@ -10,7 +10,7 @@ export default function Solar() {
     <StyledSolar>
       <Sun></Sun>
 
-      <Orbit size={200}>
+      <Orbit size={planets.aboutMe.orbitRadius}>
         <Planet />
       </Orbit>
 

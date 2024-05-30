@@ -3,7 +3,7 @@
 }
 
 .solar_orbit {
-  border: 1px solid #c5c5c587;
+  border: 0.1rem solid #c5c5c587;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -13,8 +13,8 @@
 }
 .solar_planet {
   background-color: orange;
-  width: 70px;
-  height: 70px;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   position: absolute;
   top: 50%;
