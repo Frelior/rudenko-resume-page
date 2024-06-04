@@ -1,24 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit"
-
-const INITIAL_PLANETS = {
-  planets: {
-    aboutMe: {
-      orbitRadius: 200,
-      rotationPeriod: 10,
-      orbitalPeriod: 10,
-      diameter: 150,
-      classList: "solar_orbit solar_planet",
-    },
-    education: {},
-    skills: {},
-    projects: {},
-    contact: {},
-    languages: {},
-    awards: {},
-    interests: {},
-    experience: {},
-  },
-}
+import { INITIAL_PLANETS } from "./initialState.js"
 
 const planetsSlice = createSlice({
   name: "planets",

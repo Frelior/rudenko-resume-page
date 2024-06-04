@@ -2,25 +2,6 @@
   height: 100vh;
 }
 
-.solar_orbit {
-  border: 0.1rem solid #c5c5c587;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  border-radius: 50%;
-  animation: orbit 36s infinite linear;
-}
-.solar_planet {
-  background-color: orange;
-  width: 7rem;
-  height: 7rem;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(-50%, -50%);
-}
 @keyframes orbit {
   0% {
     transform: translate3d(-50%, -50%, 0) rotateZ(0);

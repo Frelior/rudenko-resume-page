@@ -7,16 +7,19 @@ import { useSelector } from "react-redux"
 export default function Solar() {
   const planets = useSelector((state) => state.planets.planets)
   return (
-    <StyledSolar>
+    <StyledSolar className="solar">
       <Sun></Sun>
 
-      <Orbit size={planets.aboutMe.orbitRadius}>
-        <Planet />
-      </Orbit>
-
-      <Orbit size={450}>
-        <Planet />
-      </Orbit>
+      {Object.keys(planets).map((planet) => {
+        return (
+          <Orbit
+            size={planets[planet].orbitRadius}
+            key={planet}
+          >
+            <Planet planet={planets[planet]} />
+          </Orbit>
+        )
+      })}
     </StyledSolar>
   )
 }
