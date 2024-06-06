@@ -6,6 +6,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 5,
       classList: "planets__aboutMe",
+      classListOrbit: "orbits__aboutMe",
     },
     education: {
       orbitRadius: 29,
@@ -13,6 +14,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 3,
       classList: "planets__education",
+      classListOrbit: "orbits__education",
     },
     skills: {
       orbitRadius: 39,
@@ -20,6 +22,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 7,
       classList: "planets__skills",
+      classListOrbit: "orbits__skills",
     },
     projects: {
       orbitRadius: 50,
@@ -27,13 +30,15 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 4,
       classList: "planets__projects",
+      classListOrbit: "orbits__projects",
     },
     contact: {
       orbitRadius: 65,
       rotationPeriod: 10,
       orbitalPeriod: 10,
       diameter: 2,
-      classList: "planets__contact",
+      classList: "planets__contacts",
+      classListOrbit: "orbits__contacts",
     },
     languages: {
       orbitRadius: 73,
@@ -41,6 +46,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 8,
       classList: "planets__languages",
+      classListOrbit: "orbits__languages",
     },
     awards: {
       orbitRadius: 82,
@@ -48,6 +54,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 6,
       classList: "planets__awards",
+      classListOrbit: "orbits__awards",
     },
     interests: {
       orbitRadius: 90,
@@ -55,6 +62,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 3,
       classList: "planets__interests",
+      classListOrbit: "orbits__interests",
     },
     experience: {
       orbitRadius: 100,
@@ -62,6 +70,7 @@ export const INITIAL_PLANETS = {
       orbitalPeriod: 10,
       diameter: 6,
       classList: "planets__experience",
+      classListOrbit: "orbits__experience",
     },
   },
 }
