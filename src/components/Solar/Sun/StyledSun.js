@@ -2,8 +2,8 @@ import { styled } from "styled-components"
 
 export const StyledSun = styled.div`
   background-color: yellow;
-  width: 100px;
-  height: 100px;
+  width: 5rem;
+  height: 5rem;
   border-radius: 50%;
   transform: translate(-50%, -50%);
   top: 50%;

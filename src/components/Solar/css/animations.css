@@ -1,0 +1,48 @@
+@keyframes orbit__aboutMe {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(-360deg);
+  }
+}
+@keyframes orbit__education {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(30deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(-330deg);
+  }
+}
+@keyframes orbit__skills {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(10deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(-350deg);
+  }
+}
+@keyframes orbit__projects {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(80deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(-280deg);
+  }
+}
+@keyframes orbit__contacts {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(180deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(-180deg);
+  }
+}
+@keyframes orbit__experience {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(254deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(-106deg);
+  }
+}

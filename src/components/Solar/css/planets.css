@@ -1,0 +1,95 @@
+/* 
+в стейте хранятся только классы. сами класы будут определятся в цсс 
+сделать рандомную точку спавна
+нормальные отступы и размеры и анимации */
+
+@import url("variables.css");
+@import url("animations.css");
+
+.planets__aboutMe {
+  width: var(--planet-size__aboutMe);
+  height: var(--planet-size__aboutMe);
+  background-color: #e7a155;
+}
+.orbits__aboutMe {
+  z-index: 60;
+  width: var(--orbit-size__aboutMe);
+  height: var(--orbit-size__aboutMe);
+  border-color: blueviolet;
+  animation: orbit__aboutMe var(--orbit-animation-duration__aboutMe) linear
+    infinite;
+}
+
+.planets__education {
+  width: var(--planet-size__education);
+  height: var(--planet-size__education);
+  background-color: yellow;
+  box-shadow: 0 0 0 0.2rem #181818, 0 0 0 0.4rem rgba(231, 161, 85, 0.2),
+    0 0 0 0.5rem rgba(231, 161, 85, 0.1), 0 0 0 0.7rem rgba(231, 161, 85, 0.1);
+}
+.orbits__education {
+  z-index: 50;
+  width: var(--orbit-size__education);
+  height: var(--orbit-size__education);
+  border-color: yellow;
+  animation: orbit__education var(--orbit-animation-duration__education) linear
+    infinite;
+}
+
+.planets__skills {
+  width: var(--planet-size__skills);
+  height: var(--planet-size__skills);
+  background-color: green;
+}
+.orbits__skills {
+  z-index: 40;
+  width: var(--orbit-size__skills);
+  height: var(--orbit-size__skills);
+  border-color: green;
+  animation: orbit__skills var(--orbit-animation-duration__skills) linear
+    infinite;
+}
+
+.planets__projects {
+  width: var(--planet-size__projects);
+  height: var(--planet-size__projects);
+  background-color: red;
+}
+.orbits__projects {
+  z-index: 30;
+
+  width: var(--orbit-size__projects);
+  height: var(--orbit-size__projects);
+  border-color: red;
+  animation: orbit__projects var(--orbit-animation-duration__projects) linear
+    infinite;
+}
+
+.planets__contacts {
+  width: var(--planet-size__contacts);
+  height: var(--planet-size__contacts);
+  background-color: blue;
+}
+.orbits__contacts {
+  z-index: 20;
+
+  width: var(--orbit-size__contacts);
+  height: var(--orbit-size__contacts);
+  border-color: blue;
+  animation: orbit__contacts var(--orbit-animation-duration__contacts) linear
+    infinite;
+}
+
+.planets__experience {
+  width: var(--planet-size__experience);
+  height: var(--planet-size__experience);
+  background-color: orange;
+}
+.orbits__experience {
+  z-index: 10;
+  width: var(--orbit-size__experience);
+  height: var(--orbit-size__experience);
+  border-color: orange;
+  animation: orbit__experience var(--orbit-animation-duration__experience)
+    linear infinite;
+}

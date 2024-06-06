@@ -1,0 +1,25 @@
+:root {
+  /* planet size */
+  --planet-size__education: 3rem;
+  --planet-size__aboutMe: 5rem;
+  --planet-size__skills: 7rem;
+  --planet-size__projects: 3.5rem;
+  --planet-size__contacts: 4rem;
+  --planet-size__experience: 4rem;
+
+  /* orbit size */
+  --orbit-size__aboutMe: 20rem;
+  --orbit-size__education: 30rem;
+  --orbit-size__skills: 40rem;
+  --orbit-size__projects: 50rem;
+  --orbit-size__contacts: 60rem;
+  --orbit-size__experience: 70rem;
+
+  /* orbit animations duration */
+  --orbit-animation-duration__aboutMe: 50s;
+  --orbit-animation-duration__education: 60s;
+  --orbit-animation-duration__skills: 170s;
+  --orbit-animation-duration__projects: 80s;
+  --orbit-animation-duration__contacts: 200s;
+  --orbit-animation-duration__experience: 250s;
+}
