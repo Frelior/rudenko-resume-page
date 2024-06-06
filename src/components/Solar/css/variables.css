@@ -7,6 +7,14 @@
   --planet-size__contacts: 4rem;
   --planet-size__experience: 4rem;
 
+  /* planet colors */
+  --planet-color__education: #e7a155;
+  --planet-color__aboutMe: #86e5f8;
+  --planet-color__skills: #e75555;
+  --planet-color__projects: #d586f8;
+  --planet-color__contacts: #556ce7;
+  --planet-color__experience: #55e795;
+
   /* orbit size */
   --orbit-size__aboutMe: 20rem;
   --orbit-size__education: 30rem;
