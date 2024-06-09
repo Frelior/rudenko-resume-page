@@ -1,12 +1,22 @@
-.animation-stopped {
+.animation-stopped,
+.animation-stopped > * {
   animation-play-state: paused !important;
 }
+
 @keyframes orbit__aboutMe {
   0% {
     transform: translate3d(-50%, -50%, 0) rotateZ(0deg);
   }
   100% {
     transform: translate3d(-50%, -50%, 0) rotateZ(-360deg);
+  }
+}
+@keyframes planet__aboutMe {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotateZ(360deg);
   }
 }
 @keyframes orbit__education {

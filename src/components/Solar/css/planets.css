@@ -11,6 +11,8 @@
   width: var(--planet-size__aboutMe);
   height: var(--planet-size__aboutMe);
   background-color: var(--planet-color__aboutMe);
+  animation: planet__aboutMe var(--orbit-animation-duration__aboutMe) linear
+    infinite;
 }
 .orbits__aboutMe {
   z-index: 60;

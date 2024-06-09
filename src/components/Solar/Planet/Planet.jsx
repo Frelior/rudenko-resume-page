@@ -12,6 +12,8 @@ export default function Planet({ planet }) {
     <StyledPlanet
       className={planet.classList}
       onClick={() => toggleAnimation(planet)}
-    />
+    >
+      <div className="planet__description">{planet.name}</div>
+    </StyledPlanet>
   )
 }

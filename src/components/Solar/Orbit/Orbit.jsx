@@ -1,7 +1,8 @@
 import { StyledOrbit } from "./StyledOrbit"
 import Planet from "../Planet/Planet"
+import { memo } from "react"
 
-export default function Orbit({ planet }) {
+export default memo(function Orbit({ planet }) {
   return (
     <StyledOrbit
       className={`solar_orbit ${planet.classListOrbit} ${
@@ -11,4 +12,4 @@ export default function Orbit({ planet }) {
       <Planet planet={planet} />
     </StyledOrbit>
   )
-}
+})
