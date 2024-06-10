@@ -2,7 +2,7 @@ export const PARALLAXITEMSTORE = [
   {
     id: 1,
     name: "cloud-dark",
-    src: "../../images/parallaxImages/cloud-dark.png",
+    src: "/images/parallaxImages/cloud-dark.png",
     classList: "cloud-dark",
     strength: 0.01,
     zIndex: null,
@@ -10,9 +10,9 @@ export const PARALLAXITEMSTORE = [
   {
     id: 2,
     name: "cloud-light",
-    src: "../../images/parallaxImages/cloud-light.png",
+    src: "/images/parallaxImages/cloud-light.png",
     classList: "cloud-light",
-    strength: 0.01,
+    strength: 0.02,
     zIndex: null,
   },
 ]
