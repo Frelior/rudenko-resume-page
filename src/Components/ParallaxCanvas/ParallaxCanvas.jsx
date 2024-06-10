@@ -1,16 +1,24 @@
 import ParallaxItem from "../ParallaxItem/ParallaxItem.jsx"
 import { StyledParallaxCanvas } from "./ParallaxCanvas.js"
+import { PARALLAXITEMSTORE } from "./parallaxItemStore.js"
 
 export default function ParallaxCanvas({ children }) {
   return (
-    <StyledParallaxCanvas>
-      <ParallaxItem>
-        <img
-          src="../../images/parallaxImages/cloud-dark.png"
-          alt="MEOW"
-        />
-        <h1>DCOJHNAISDFYBGHAOHDSIFJB</h1>
-      </ParallaxItem>
-    </StyledParallaxCanvas>
+    <>
+      <StyledParallaxCanvas>
+        {PARALLAXITEMSTORE.map((item) => (
+          <ParallaxItem
+            strength={item.strength}
+            key={item.id}
+            className={item.classList}
+          >
+            <img
+              src={item.src}
+              alt={item.name}
+            />
+          </ParallaxItem>
+        ))}
+      </StyledParallaxCanvas>
+    </>
   )
 }

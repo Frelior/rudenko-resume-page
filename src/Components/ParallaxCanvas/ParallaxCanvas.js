@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import "../../css/parallax-components.css"
 
 export const StyledParallaxCanvas = styled.div`
   position: absolute;
@@ -6,5 +7,4 @@ export const StyledParallaxCanvas = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  //   background-color: red;
 `
