@@ -5,7 +5,32 @@
 }
 
 .cloud-light {
-  top: 89%;
-  left: 14%;
-  width: 33%;
+  transform: translate(0, 0) !important;
+  bottom: -4%;
+  left: -4%;
+  width: 29%;
+}
+
+.cloud-large {
+  top: 51%;
+  left: 71%;
+  width: 58%;
+}
+
+.cloud-red {
+  top: 26.5%;
+  left: 65%;
+  width: 12%;
+}
+
+.cloud-oval {
+  top: -5.5%;
+  left: 38%;
+  width: 12%;
+}
+
+.small-objects {
+  top: 50%;
+  left: 50%;
+  width: 110%;
 }
