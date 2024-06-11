@@ -1,7 +1,10 @@
-export default function Planet({ children, planet }) {
+import { StyledPlanet } from "./Planet.js"
+
+export default function Planet({ planet }) {
   return (
-    <div className="planet">
+    <StyledPlanet>
       <h1> PLANET </h1>
-    </div>
+      <p> {planet.name} </p>
+    </StyledPlanet>
   )
 }
