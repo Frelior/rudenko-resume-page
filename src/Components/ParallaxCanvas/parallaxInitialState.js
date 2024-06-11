@@ -4,7 +4,7 @@ export const parallaxInitialState = [
     name: "cloud-dark",
     src: "/images/parallaxImages/cloud-dark.png",
     classList: "cloud-dark",
-    strength: 0.03,
+    strength: 0.04,
     zIndex: null,
     lerpEase: 0.01,
   },
