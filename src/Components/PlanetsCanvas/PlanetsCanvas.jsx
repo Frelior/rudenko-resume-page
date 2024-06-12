@@ -6,13 +6,17 @@ export default function PlanetsCanvas() {
   const planets = useSelector((state) => state.planets)
 
   return (
-    <StyledPlanetsCanvas>
-      {planets.map((planet) => (
-        <Planet
-          planet={planet}
-          key={planet.id}
-        />
-      ))}
+    <StyledPlanetsCanvas length={planets.length}>
+      <div className="container">
+        <div className="planets">
+          {planets.map((planet) => (
+            <Planet
+              planet={planet}
+              key={planet.id}
+            />
+          ))}
+        </div>
+      </div>
     </StyledPlanetsCanvas>
   )
 }

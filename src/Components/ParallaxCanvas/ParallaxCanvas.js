@@ -9,4 +9,5 @@ export const StyledParallaxCanvas = styled.div`
   height: 100%;
   pointer-events: none;
   user-select: none;
+  z-index: 0;
 `
