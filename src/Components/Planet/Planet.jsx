@@ -7,10 +7,6 @@ export default function Planet({ planet }) {
       id={planet.id}
     >
       <p> {planet.name} </p>
-      <img
-        src={planet.src}
-        alt=""
-      />
     </StyledPlanet>
   )
 }
