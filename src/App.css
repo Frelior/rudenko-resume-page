@@ -7,6 +7,7 @@
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  background-blend-mode: color;
   position: relative;
   overflow: hidden;
   z-index: 0;

@@ -6,5 +6,6 @@ export const StyledParallaxItem = styled.div`
 
   & img {
     width: 100%;
+    filter: drop-shadow(0 0 30px #000000b8);
   }
 `
