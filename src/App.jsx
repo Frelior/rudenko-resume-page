@@ -1,13 +1,14 @@
 import "./App.css"
 import ParallaxCanvas from "./Components/ParallaxCanvas/ParallaxCanvas.jsx"
 import PlanetsCanvas from "./Components/PlanetsCanvas/PlanetsCanvas.jsx"
+import Slider from "./Components/Slider/Slider.jsx"
 
 function App() {
   return (
     <div className="App">
-      <PlanetsCanvas></PlanetsCanvas>
-
-      <ParallaxCanvas></ParallaxCanvas>
+      {/* <PlanetsCanvas></PlanetsCanvas> */}
+      <Slider />
+      {/* <ParallaxCanvas></ParallaxCanvas> */}
     </div>
   )
 }

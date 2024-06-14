@@ -7,12 +7,12 @@ export default function PlanetsCanvas() {
 
   return (
     <StyledPlanetsCanvas>
-      {planets.map((planet) => (
+      {/* {planets.map((planet) => (
         <Planet
           planet={planet}
           key={planet.id}
         />
-      ))}
+      ))} */}
     </StyledPlanetsCanvas>
   )
 }
