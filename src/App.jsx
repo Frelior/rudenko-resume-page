@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       {/* <PlanetsCanvas></PlanetsCanvas> */}
       <Slider />
-      {/* <ParallaxCanvas></ParallaxCanvas> */}
+      <ParallaxCanvas></ParallaxCanvas>
     </div>
   )
 }

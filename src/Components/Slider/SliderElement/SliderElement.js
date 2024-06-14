@@ -19,6 +19,12 @@ export const StyledSliderElement = styled.div`
     box-shadow: 0 0 0 0.2vw #222, 0 0 0 0.3vw #fff;
     transform: rotate(calc(360deg / 5 * var(--id)));
     transform-origin: 22vw;
+    overflow: hidden;
+
+    &.active {
+      box-shadow: 0 0 0 0.2vw #2d2dff, 0 0 0 0.3vw #4b00ff,
+        0 0 1vw 0.5vw #c3e3ff;
+    }
 
     & img {
       position: absolute;
@@ -28,6 +34,7 @@ export const StyledSliderElement = styled.div`
       height: 100%;
       object-fit: cover;
       border-radius: 50%;
+      transform: rotate(calc(-360deg / 5 * var(--id)));
     }
   }
 `

@@ -4,7 +4,7 @@ export default function SliderElement({ sliderItem }) {
   return (
     <StyledSliderElement>
       <div
-        className="imgBox"
+        className="imgBox active no-select"
         style={{ "--id": sliderItem.id }}
       >
         <img
