@@ -33,5 +33,6 @@ function rotateCircleOneStep(state) {
 
       item.position < 5 ? (item.position += 1) : (item.position = 1)
     }
+    return item // ???????????????
   })
 }

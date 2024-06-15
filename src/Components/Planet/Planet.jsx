@@ -1,9 +1,6 @@
 import { StyledPlanet } from "./Planet.js"
-import { useDispatch } from "react-redux"
 
 export default function Planet({ planet }) {
-  const dispatch = useDispatch()
-
   return (
     <StyledPlanet
       style={{
