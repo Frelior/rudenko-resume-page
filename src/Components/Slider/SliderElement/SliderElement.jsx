@@ -10,7 +10,9 @@ export default function SliderElement({ sliderItem }) {
       $planetrotate={(360 / 5) * sliderItem.rotateIndex}
     >
       <div
-        className="imgBox active no-select"
+        className={`imgBox no-select ${
+          sliderItem.position === 5 ? "active" : ""
+        }`}
         style={{ "--id": sliderItem.id }}
         onClick={() => dispatch(rotateCircle(sliderItem.position))}
       >
