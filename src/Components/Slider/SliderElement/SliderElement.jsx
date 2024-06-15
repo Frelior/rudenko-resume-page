@@ -12,7 +12,7 @@ export default function SliderElement({ sliderItem }) {
       <div
         className="imgBox active no-select"
         style={{ "--id": sliderItem.id }}
-        onClick={() => dispatch(rotateCircle())}
+        onClick={() => dispatch(rotateCircle(sliderItem.position))}
       >
         <div className="planet">
           <p className="title">{sliderItem.name}</p>

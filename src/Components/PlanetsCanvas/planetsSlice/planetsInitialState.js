@@ -1,10 +1,11 @@
 export const planetsInitialState = [
   {
     id: 1,
-    name: "About Me",
+    name: "Resume",
     src: "/images/planets/1.png",
     classList: "about-me",
     rotateIndex: 1,
+    position: 1,
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const planetsInitialState = [
     src: "/images/planets/2.png",
     classList: "skills",
     rotateIndex: 2,
+    position: 2,
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const planetsInitialState = [
     src: "/images/planets/3.png",
     classList: "projects",
     rotateIndex: 3,
+    position: 3,
   },
   {
     id: 4,
@@ -26,13 +29,15 @@ export const planetsInitialState = [
     src: "/images/planets/4.png",
     classList: "contact",
     rotateIndex: 4,
+    position: 4,
   },
   {
     id: 5,
-    name: "Resume",
+    name: "About Me",
     src: "/images/planets/5.png",
     classList: "resume",
     rotateIndex: 5,
+    position: 5,
   },
   {
     name: "Circle rotate degrees",

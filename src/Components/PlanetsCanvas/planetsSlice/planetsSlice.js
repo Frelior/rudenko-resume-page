@@ -1,29 +1,37 @@
 import { createSlice } from "@reduxjs/toolkit"
-import {
-  planetsInitialState as initialState,
-  positions,
-} from "./planetsInitialState.js"
+import { planetsInitialState as initialState } from "./planetsInitialState.js"
 
 export const planetsSlice = createSlice({
   name: "planets",
   initialState,
   reducers: {
-    rotateCircle: (state) => {
-      const step = 360 / (state.length - 1)
-      const rotateObject = state.at(-1)
+    rotateCircle: (state, action) => {
+      let currentPosition = action.payload
 
-      rotateObject.rotateDegrees === 360 - step
-        ? (rotateObject.rotateDegrees = 0)
-        : (rotateObject.rotateDegrees += step)
-
-      state.map((item) => {
-        if (item.rotateIndex) {
-          item.rotateIndex += 1
-        }
-      })
+      while (currentPosition < 5) {
+        rotateCircleOneStep(state)
+        currentPosition++
+      }
     },
   },
 })
 
 export const { rotateCircle } = planetsSlice.actions
 export default planetsSlice.reducer
+
+function rotateCircleOneStep(state) {
+  const step = 360 / (state.length - 1)
+  const rotateObject = state.at(-1)
+
+  rotateObject.rotateDegrees === 360 - step
+    ? (rotateObject.rotateDegrees = 0)
+    : (rotateObject.rotateDegrees += step)
+
+  state.map((item) => {
+    if (item.rotateIndex) {
+      item.rotateIndex += 1
+
+      item.position < 5 ? (item.position += 1) : (item.position = 1)
+    }
+  })
+}
