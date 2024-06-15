@@ -6,13 +6,17 @@ export default function Slider() {
   const sliderItems = useSelector((state) => state.planets)
 
   return (
-    <StyledSlider>
-      {sliderItems.map((sliderItem) => (
-        <SliderElement
-          key={sliderItem.id}
-          sliderItem={sliderItem}
-        />
-      ))}
+    <StyledSlider rotate={sliderItems.at(-1)?.rotateDegrees}>
+      {sliderItems.map((sliderItem) => {
+        if (sliderItem.id) {
+          return (
+            <SliderElement
+              key={sliderItem.id}
+              sliderItem={sliderItem}
+            />
+          )
+        }
+      })}
     </StyledSlider>
   )
 }

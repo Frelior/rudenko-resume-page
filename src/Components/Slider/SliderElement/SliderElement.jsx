@@ -1,16 +1,26 @@
 import { StyledSliderElement } from "./SliderElement.js"
+import { useDispatch } from "react-redux"
+import { rotateCircle } from "../../PlanetsCanvas/planetsSlice/planetsSlice.js"
 
 export default function SliderElement({ sliderItem }) {
+  const dispatch = useDispatch()
   return (
-    <StyledSliderElement>
+    <StyledSliderElement
+      title={sliderItem.name}
+      $planetrotate={(360 / 5) * sliderItem.rotateIndex}
+    >
       <div
         className="imgBox active no-select"
         style={{ "--id": sliderItem.id }}
+        onClick={() => dispatch(rotateCircle())}
       >
-        <img
-          src={sliderItem.src}
-          alt=""
-        />
+        <div className="planet">
+          <p className="title">{sliderItem.name}</p>
+          <img
+            src={sliderItem.src}
+            alt=""
+          />
+        </div>
       </div>
     </StyledSliderElement>
   )
