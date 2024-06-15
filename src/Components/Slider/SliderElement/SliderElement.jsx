@@ -1,6 +1,6 @@
 import { StyledSliderElement } from "./SliderElement.js"
 import { useDispatch } from "react-redux"
-import { rotateCircle } from "../../PlanetsCanvas/planetsSlice/planetsSlice.js"
+import { rotateCircle } from "../../planetsSlice/planetsSlice.js"
 
 export default function SliderElement({ sliderItem }) {
   const dispatch = useDispatch()

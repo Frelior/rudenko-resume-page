@@ -1,9 +1,13 @@
+import { tab } from "@testing-library/user-event/dist/tab.js"
+import * as tabs from "../TextWindow/planetsTabs/export.js"
+import { AboutMe } from "../TextWindow/planetsTabs/export.js"
+
 export const planetsInitialState = [
   {
     id: 1,
     name: "Resume",
     src: "/images/planets/1.png",
-    classList: "about-me",
+    classList: "resume",
     rotateIndex: 1,
     position: 1,
   },
@@ -25,7 +29,7 @@ export const planetsInitialState = [
   },
   {
     id: 4,
-    name: "Contact",
+    name: "Contacts",
     src: "/images/planets/4.png",
     classList: "contact",
     rotateIndex: 4,
@@ -35,7 +39,7 @@ export const planetsInitialState = [
     id: 5,
     name: "About Me",
     src: "/images/planets/5.png",
-    classList: "resume",
+    classList: "about-me",
     rotateIndex: 5,
     position: 5,
   },
