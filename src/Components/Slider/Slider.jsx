@@ -2,7 +2,7 @@ import { StyledSlider } from "./Slider.js"
 import SliderElement from "./SliderElement/SliderElement.jsx"
 import { useSelector } from "react-redux"
 
-export default function Slider() {
+export default function Slider({ children }) {
   const sliderItems = useSelector((state) => state.planets)
 
   return (
@@ -18,6 +18,7 @@ export default function Slider() {
         }
         return null
       })}
+      {children}
     </StyledSlider>
   )
 }

@@ -1,14 +1,20 @@
 import styled from "styled-components"
 
 export const StyledTextWindow = styled.div`
+  --about-me-title-bg-color: #0c78ff5c;
+  --contacts-title-bg-color: #e83efb5c;
+  --projects-title-bg-color: #ff9a695c;
+  --resume-title-bg-color: #57ffd05c;
+  --skills-title-bg-color: #4444445c;
+
   position: absolute;
   color: white;
-  background-color: black;
-  border: solid 0.2vw white;
+  background-color: #000000e3;
+  border: solid 0.2vw #ffffff1a;
+  box-shadow: 0 0 1.5vw 1.1vw black, 0 0 2vw 2vw #0000005c;
   border-radius: 50%;
-  width: 35vw;
-  height: 35vw;
-
+  width: 34vw;
+  height: 34vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,5 +30,6 @@ export const StyledTextWindow = styled.div`
     align-items: center;
     overflow: auto;
     scrollbar-width: none;
-  }
+    opacity: 1;
+    transition: opacity 0.7s ease;
 `

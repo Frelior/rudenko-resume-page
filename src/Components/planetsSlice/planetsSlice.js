@@ -13,10 +13,13 @@ export const planetsSlice = createSlice({
         currentPosition++
       }
     },
+    rotateToggle: (state) => {
+      state.at(-1).isRotating = !state.at(-1).isRotating
+    },
   },
 })
 
-export const { rotateCircle } = planetsSlice.actions
+export const { rotateCircle, rotateToggle } = planetsSlice.actions
 export default planetsSlice.reducer
 
 function rotateCircleOneStep(state) {
@@ -33,6 +36,6 @@ function rotateCircleOneStep(state) {
 
       item.position < 5 ? (item.position += 1) : (item.position = 1)
     }
-    return item // ???????????????
+    return item
   })
 }

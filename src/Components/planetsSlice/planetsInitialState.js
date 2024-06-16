@@ -1,7 +1,3 @@
-import { tab } from "@testing-library/user-event/dist/tab.js"
-import * as tabs from "../TextWindow/planetsTabs/export.js"
-import { AboutMe } from "../TextWindow/planetsTabs/export.js"
-
 export const planetsInitialState = [
   {
     id: 1,
@@ -44,7 +40,8 @@ export const planetsInitialState = [
     position: 5,
   },
   {
-    name: "Circle rotate degrees",
+    name: "Circle rotate",
     rotateDegrees: 0,
+    isRotating: false,
   },
 ]

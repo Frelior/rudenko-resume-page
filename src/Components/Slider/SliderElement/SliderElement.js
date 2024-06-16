@@ -6,32 +6,39 @@ export const StyledSliderElement = styled.div`
   left: -5%;
   width: 10%;
   height: 10%;
+  pointer-events: all;
 
   & .imgBox {
     position: absolute;
-    width: 4vw;
-    height: 4vw;
+    width: 5vw;
+    height: 5vw;
     border-radius: 50%;
-    transition: all 0.5s ease;
-    border: 0.1vw solid white;
+    transition: rotate 0.5s ease, box-shadow 0.05s ease;
+    border: 0.2vw solid white;
     box-shadow: 0 0 0 0.2vw #222, 0 0 0 0.3vw #fff;
     transform: rotate(calc(360deg / 5 * var(--id)));
-    transform-origin: 22vw;
+    transform-origin: 21.8vw;
     overflow: hidden;
+    cursor: pointer;
 
     &.active {
-      animation: pulsating 5s infinite;
+      animation: pulsating 2s infinite;
       @keyframes pulsating {
         0% {
-          box-shadow: 0 0 0 0.2vw #222, 0 0 0 0.3vw #fff, 0 0 2vw 1vw #c3e3ff;
+          box-shadow: 0 0 0 0.2vw #ababab, 0 0 0 0.3vw #fff, 0 0 1vw 1vw #c3e3ff;
         }
         50% {
-          box-shadow: 0 0 0 0.2vw #222, 0 0 0 0.3vw #fff, 0 0 2vw 2.3vw #c3e3ff;
+          box-shadow: 0 0 0 0.2vw #ababab, 0 0 0 0.3vw #fff,
+            0 0 1vw 1.2vw #c3e3ff;
         }
         100% {
-          box-shadow: 0 0 0 0.2vw #222, 0 0 0 0.3vw #fff, 0 0 2vw 1vw #c3e3ff;
+          box-shadow: 0 0 0 0.2vw #ababab, 0 0 0 0.3vw #fff, 0 0 1vw 1vw #c3e3ff;
         }
       }
+    }
+
+    &:hover {
+      box-shadow: 0 0 0 0.2vw #ababab, 0 0 0 0.3vw #fff, 0 0 1vw 1vw #41a6ff99;
     }
 
     .planet {
