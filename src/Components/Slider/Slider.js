@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const StyledSlider = styled.div`
-  --animation-duration: 1s;
+  --animation-duration: 0.5s;
 
   // position: absolute;
   // top: 50%;

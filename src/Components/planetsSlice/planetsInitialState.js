@@ -41,7 +41,7 @@ export const planetsInitialState = [
   },
   {
     name: "Circle rotate",
-    rotateDegrees: 0,
+    rotateDegrees: 90,
     isRotating: false,
   },
 ]

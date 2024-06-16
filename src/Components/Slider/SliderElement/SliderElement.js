@@ -58,6 +58,10 @@ export const StyledSliderElement = styled.div`
       }
 
       & .title {
+        width: 80%;
+        // background-color: #00000099;
+        // border-radius: 50%;
+        text-shadow: 0 0 1vw #222;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -66,7 +70,7 @@ export const StyledSliderElement = styled.div`
         z-index: 1;
         text-align: center;
         color: #fff;
-        text-shadow: 0 0 0.2vw #222, 0 0 0.3vw #fff;
+        text-shadow: 0vw 0.1vw 0.5vw #000;
       }
     }
   }

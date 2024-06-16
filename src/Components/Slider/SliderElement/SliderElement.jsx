@@ -27,7 +27,7 @@ export default function SliderElement({ sliderItem }) {
   return (
     <StyledSliderElement
       title={sliderItem.name}
-      $planetrotate={(360 / 5) * sliderItem.rotateIndex}
+      $planetrotate={(360 / 5) * sliderItem.rotateIndex + 90}
     >
       <div
         className={`imgBox no-select ${
