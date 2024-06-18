@@ -1,23 +1,27 @@
 import styled from "styled-components"
 
 export const StyledSliderElement = styled.div`
-  top: 45%;
   position: absolute;
-  left: -5%;
-  width: 10%;
-  height: 10%;
-  pointer-events: all;
+  top: 44%;
+  // left: -5%;
+  width: 5vw;
+  height: 5vw;
+  pointer-events: none;
+  // transform: translate(-50%, -50%);
 
-  & .imgBox {
+  .imgBox {
+    pointer-events: all;
     position: absolute;
-    width: 5vw;
-    height: 5vw;
+    // width: 5vw;
+    // height: 5vw;
+    width: 100%;
+    height: 100%;
     border-radius: 50%;
     transition: rotate 0.5s ease, box-shadow 0.05s ease;
     border: 0.2vw solid white;
     box-shadow: 0 0 0 0.2vw #222, 0 0 0 0.3vw #fff;
-    transform: rotate(calc(360deg / 5 * var(--id)));
-    transform-origin: 21.8vw;
+    transform: rotate(calc(360deg / 5 * var(--id))) translate(-50%, -50%);
+    transform-origin: 20vw;
     overflow: hidden;
     cursor: pointer;
 
@@ -49,18 +53,16 @@ export const StyledSliderElement = styled.div`
       height: 100%;
       object-fit: cover;
       border-radius: 50%;
-      transform: rotate(-${(props) => props.$planetrotate}deg);
+      transform: rotate(${(props) => props.$planetrotate}deg);
       transition: all var(--animation-duration) ease;
 
-      & img {
+      img {
         width: 100%;
         height: 100%;
       }
 
-      & .title {
+      .title {
         width: 80%;
-        // background-color: #00000099;
-        // border-radius: 50%;
         text-shadow: 0 0 1vw #222;
         position: absolute;
         top: 50%;
@@ -71,6 +73,8 @@ export const StyledSliderElement = styled.div`
         text-align: center;
         color: #fff;
         text-shadow: 0vw 0.1vw 0.5vw #000;
+        // backface-visibility: hidden;
+        will-change: transform;
       }
     }
   }

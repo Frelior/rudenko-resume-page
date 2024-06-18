@@ -31,5 +31,5 @@ export const StyledTextWindow = styled.div`
     overflow: auto;
     scrollbar-width: none;
     opacity: 1;
-    transition: opacity 0.7s ease;
+    transition: opacity 0.3s ease;
 `

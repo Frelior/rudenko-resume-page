@@ -1,19 +1,24 @@
 import { StyledSliderElement } from "./SliderElement.js"
 import { useDispatch } from "react-redux"
-import { rotateCircle, rotateToggle } from "../../planetsSlice/planetsSlice.js"
+import {
+  rotateCircle,
+  rotateToggle,
+  changePositions,
+} from "../../planetsSlice/planetsSlice.js"
 import { useEffect, useRef } from "react"
 
 export default function SliderElement({ sliderItem }) {
   const dispatch = useDispatch()
   const timeoutRef = useRef(null)
 
-  const handleClick = (position) => {
+  const handleClick = (sliderItem) => {
     dispatch(rotateToggle())
-
+    dispatch(rotateCircle(sliderItem))
+    // timeout waits for the animation of fade out
     timeoutRef.current = setTimeout(() => {
-      dispatch(rotateCircle(position))
+      dispatch(changePositions(sliderItem))
       dispatch(rotateToggle())
-    }, 500)
+    }, 300)
   }
 
   useEffect(() => {
@@ -27,14 +32,14 @@ export default function SliderElement({ sliderItem }) {
   return (
     <StyledSliderElement
       title={sliderItem.name}
-      $planetrotate={(360 / 5) * sliderItem.rotateIndex + 90}
+      $planetrotate={-((360 / 5) * sliderItem.id + 90 + sliderItem.rotateIndex)}
     >
       <div
         className={`imgBox no-select ${
           sliderItem.position === 5 ? "active" : ""
         }`}
         style={{ "--id": sliderItem.id }}
-        onClick={() => handleClick(sliderItem.position)}
+        onClick={() => handleClick(sliderItem)}
       >
         <div className="planet">
           <p className="title">{sliderItem.name}</p>
