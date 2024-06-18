@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <ParallaxCanvas></ParallaxCanvas>
       <TextWindow />
-      <Slider></Slider>
+      <Slider />
     </div>
   )
 }

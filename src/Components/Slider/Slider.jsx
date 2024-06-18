@@ -1,5 +1,5 @@
 import { StyledSlider } from "./Slider.js"
-import SliderElement from "./SliderElement/SliderElement.jsx"
+import SliderElement from "../SliderElement/SliderElement.jsx"
 import { useSelector } from "react-redux"
 
 export default function Slider({ children }) {

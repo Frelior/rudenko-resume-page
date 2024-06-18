@@ -46,7 +46,7 @@ function rotateCircleOneStep(state, direction) {
 
   state.map((item) => {
     if (item.id) {
-      item.rotateIndex += step
+      item.rotateDegrees += step
     }
     return item
   })
