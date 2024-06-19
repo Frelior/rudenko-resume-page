@@ -1,0 +1,62 @@
+.cloud-dark {
+  top: 31%;
+  left: 50%;
+  width: 41%;
+}
+
+.cloud-light {
+  transform: translate(0, 0) !important;
+  bottom: -4%;
+  left: -4%;
+  width: 29%;
+}
+
+.cloud-large {
+  /* font-family: "Rubik Maps", sans-serif; */
+  font-family: "Rubik Lines", sans-serif;
+  font-weight: bold;
+  text-shadow: 0 0 5vw #fffe00;
+
+  letter-spacing: 0.2vw;
+  top: 51%;
+  left: 71%;
+  width: 58%;
+}
+.cloud-large::after {
+  content: "MYKHAILO";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%) rotate(312deg);
+  z-index: 1;
+  font-size: 2vw;
+  color: black;
+}
+.cloud-large::before {
+  content: "RUDENKO";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-41%, 17%) rotate(312deg);
+  z-index: 1;
+  font-size: 3vw;
+  color: black;
+}
+
+.cloud-red {
+  top: 26.5%;
+  left: 65%;
+  width: 12%;
+}
+
+.cloud-oval {
+  top: -5.5%;
+  left: 38%;
+  width: 12%;
+}
+
+.small-objects {
+  top: 50%;
+  left: 50%;
+  width: 110%;
+}

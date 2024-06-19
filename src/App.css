@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap");
+.App {
+  font-family: "Concert One", sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/public/images/light-blur.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: color;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.no-select {
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
