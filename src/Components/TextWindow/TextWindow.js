@@ -15,6 +15,8 @@ export const StyledTextWindow = styled.div`
   border-radius: 50%;
   width: 34vw;
   height: 34vw;
+  min-width: 538px;
+  min-height: 538px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +24,8 @@ export const StyledTextWindow = styled.div`
 
   & .text-block {
     text-align: center;
-    width: 80%;
+    width: 100%;
+    padding: 0 10%;
     height: 100%;
     display: flex;
     flex-direction: column;

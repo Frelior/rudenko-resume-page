@@ -1,73 +1,85 @@
 import { StyledAboutMe } from "./AboutMe.js"
+import TextTab from "../TextTab/TextTab.jsx"
 
 export function AboutMe() {
   return (
-    <StyledAboutMe className="tab">
-      <div className="title">
-        <h1>About Me</h1>
-      </div>
-
-      <div className="content">
-        <p>
-          title Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam
-          exercitationem id esse veniam eum fugit doloremque, nesciunt rerum?
-          Expedita quasi corrupti optio minima nisi provident laboriosam quos
-          corporis, est quam cum placeat autem maxime quidem explicabo quae ab
-          iure voluptatibus deserunt a aut! Quidem veritatis ut explicabo
-          repellat nobis. Sint, error. Dolore, itaque nesciunt expedita nulla
-          laboriosam repellat unde repellendus aspernatur doloribus iusto
-          architecto aut. Exercitationem quis in consectetur atque praesentium.
-          Fugit iusto officia consequatur a sapiente perferendis. Temporibus
-          obcaecati voluptatem error. Dolores suscipit minus error? Illo aut
-          inventore atque nisi sapiente, dicta distinctio aliquam quod dolorum
-          nostrum vitae iusto quae accusamus saepe quaerat dignissimos optio
-          exercitationem fuga ducimus magni, provident molestiae. Saepe illo
-          corporis sunt nesciunt voluptate ex, fuga vero quas! Ad doloremque
-          ullam odit, sit quo voluptatum tenetur fugit dolorum blanditiis
-          veritatis sequi excepturi nemo labore, nobis explicabo, quaerat eum
-          necessitatibus? Similique quis, aliquid ut, id provident possimus
-          sapiente debitis a eaque sint et corporis aspernatur, voluptas tempora
-          qui eligendi cumque at cupiditate quia voluptatibus? Quasi nisi non
-          dignissimos tenetur perferendis explicabo natus, culpa accusantium
-          officiis unde optio iste! Aut ut nemo quisquam ducimus asperiores enim
-          cupiditate mollitia, quidem optio officiis, id maxime dolore ipsa
-          sunt? Eos, et illo ratione nesciunt necessitatibus numquam fugit,
-          maiores vel est similique porro atque cum perferendis vitae commodi, a
-          odit totam tempora. Recusandae laudantium porro tenetur iure cum sunt
-          aliquam distinctio dicta quidem consequuntur amet laboriosam hic, rem
-          illum optio rerum fugiat nihil quis fuga! Vel quae consequatur
-          temporibus corrupti, dolorem quisquam adipisci ipsam. Consequatur
-          beatae possimus laboriosam, eius itaque maxime aut temporibus esse
-          fugit quo, sequi delectus ullam odit, omnis cupiditate ratione dolorem
-          accusamus reiciendis! Quo, enim repudiandae expedita accusantium,
-          voluptates laboriosam nihil nisi possimus dignissimos magnam neque hic
-          voluptas perferendis fugiat vitae sequi voluptatem recusandae
-          provident distinctio illum voluptatum autem! Fugiat, accusantium?
-          Explicabo enim veniam dolore voluptas voluptatum sequi accusamus
-          minima doloremque. Voluptate odio non id. Quis pariatur a vitae, quo
-          vero qui, nemo eius nobis eaque dolore praesentium quisquam. Neque
-          molestiae earum aperiam assumenda blanditiis accusantium in maxime,
-          exercitationem sapiente impedit voluptatum consequuntur. Asperiores
-          cum neque quasi! Illo, consequuntur ullam. Nostrum recusandae sapiente
-          distinctio. Sed aspernatur repellendus dicta, incidunt quidem tempore
-          eligendi minima non, minus perferendis eos odit, repudiandae eum in?
-          Dignissimos laborum ullam neque molestias vitae facere at autem
-          distinctio facilis. Eligendi et nesciunt molestias corrupti odit animi
-          necessitatibus obcaecati laudantium recusandae libero at culpa illum,
-          non in suscipit quaerat hic eum? Quod sint expedita asperiores velit
-          eaque quisquam eos? Quia deleniti quis dicta sint voluptas reiciendis
-          aliquid alias similique. Nemo, nihil impedit. Magnam voluptates maxime
-          dignissimos! Unde fugit inventore veritatis perspiciatis. Asperiores
-          tempora tenetur error provident! Illum aliquam ad ut, repellat iste
-          nihil animi aspernatur! Blanditiis culpa, necessitatibus voluptatem
-          numquam consectetur autem nesciunt. Dolores placeat sed provident
-          tenetur, aperiam possimus ducimus ipsam dignissimos dolore quae
-          consequatur odio nisi sit quod, neque vero. Quasi deleniti unde
-          eveniet aliquid doloribus voluptatem soluta, ullam nisi sit labore
-          eligendi vero perspiciatis dolorem magnam et molestiae numquam in qui
-          laborum sequi laudantium?
-        </p>
-      </div>
-    </StyledAboutMe>
+    <TextTab>
+      {" "}
+      <StyledAboutMe className="tab">
+        <div className="title">
+          <h1>About Me</h1>
+          <hr />
+        </div>
+        <div className="content">
+          <div>
+            <h2>Hello!</h2>
+            <p>
+              My name is <span className="blue">Mykhailo</span>. <br /> You can
+              call me
+              <span className="orange"> Misha or Michael</span>. <br />I am a
+              beginner Front-End developer{" "}
+              <span className="red underline">yet</span>.
+            </p>
+            <br />
+            <p>
+              I am passionate about creating beautiful and functional web
+              applications. I am eager to expand my skills and contribute to
+              exciting projects. I am currently honing my skills in development
+              and looking forward to mastering many web technologies.
+            </p>
+            <br />
+          </div>
+          <div>
+            <h3>Who am I?</h3>
+            <p>
+              In addition to a new profession, i have two years of web research
+              & data entry experience in the{" "}
+              <a
+                href="https://globaldev.tech"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GlobalDev
+              </a>{" "}
+              company.
+            </p>
+            <p>
+              Also i've worked as orchestra musician for more than three years.
+              Actually i do music from childhood and have appropriate education,
+              but now its just a hobby.
+            </p>
+            <br />
+          </div>
+          <div>
+            <h3>Why i liked Front-End and development?</h3>
+            <p>In my opinion I have the right traits:</p>
+            <ul>
+              <li>
+                As a person involved in art, I love to
+                <span className="blue"> create</span>.
+              </li>
+              <li>
+                As a gamer, I love <span className="blue">challenges</span>.
+              </li>
+              <li>
+                As a researcher, I enjoy <span className="blue">creative</span>{" "}
+                work as much as <span className="blue">monotonous</span> work.
+              </li>
+              <li>
+                As just a human, i love{" "}
+                <span className="blue">become better</span>,{" "}
+                <span className="blue">learn</span> something new, work and
+                communicate with <span className="blue">people</span>.
+              </li>
+            </ul>
+            <p>
+              So, after trying to create my first page, I realized that I want
+              to become an excellent specialist.
+            </p>
+            <span className="orange underline">And i'm on my way.</span>
+          </div>
+        </div>
+      </StyledAboutMe>
+    </TextTab>
   )
 }
