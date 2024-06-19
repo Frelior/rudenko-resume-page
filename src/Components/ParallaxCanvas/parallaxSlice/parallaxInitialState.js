@@ -2,7 +2,7 @@ export const parallaxInitialState = [
   {
     id: 1,
     name: "cloud-dark",
-    src: "/images/parallaxImages/cloud-dark.png",
+    src: "/images/parallaxImages/cloud-dark-blur.png",
     classList: "cloud-dark no-select",
     strength: 0.04,
     zIndex: null,
@@ -11,7 +11,7 @@ export const parallaxInitialState = [
   {
     id: 2,
     name: "cloud-light",
-    src: "/images/parallaxImages/cloud-light.png",
+    src: "/images/parallaxImages/cloud-light-blur.png",
     classList: "cloud-light no-select",
     strength: 0.02,
     zIndex: null,
@@ -20,7 +20,7 @@ export const parallaxInitialState = [
   {
     id: 3,
     name: "cloud-large",
-    src: "/images/parallaxImages/cloud-large.png",
+    src: "/images/parallaxImages/cloud-large-blur.png",
     classList: "cloud-large no-select",
     strength: 0.02,
     zIndex: null,
@@ -29,7 +29,7 @@ export const parallaxInitialState = [
   {
     id: 4,
     name: "cloud-red",
-    src: "/images/parallaxImages/cloud-red.png",
+    src: "/images/parallaxImages/cloud-red-blur.png",
     classList: "cloud-red no-select",
     strength: 0.03,
     zIndex: null,
@@ -38,7 +38,7 @@ export const parallaxInitialState = [
   {
     id: 5,
     name: "cloud-oval",
-    src: "/images/parallaxImages/cloud-oval.png",
+    src: "/images/parallaxImages/cloud-oval-blur.png",
     classList: "cloud-oval no-select",
     strength: 0.004,
     zIndex: null,
@@ -47,7 +47,7 @@ export const parallaxInitialState = [
   {
     id: 6,
     name: "small-objects",
-    src: "/images/parallaxImages/small-objects.png",
+    src: "/images/parallaxImages/small-objects-blur.png",
     classList: "small-objects no-select",
     strength: 0.015,
     zIndex: null,
