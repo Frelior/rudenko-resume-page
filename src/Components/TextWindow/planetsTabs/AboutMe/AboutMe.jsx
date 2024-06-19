@@ -4,11 +4,9 @@ import TextTab from "../TextTab/TextTab.jsx"
 export function AboutMe() {
   return (
     <TextTab>
-      {" "}
       <StyledAboutMe>
         <div className="title">
           <h1>About Me</h1>
-          {/* <hr /> */}
         </div>
         <div className="content">
           <div>
@@ -32,8 +30,25 @@ export function AboutMe() {
           <div>
             <h3>Who am I?</h3>
             <p>
-              In addition to a new profession, i have two years of web research
-              & data entry experience in the{" "}
+              I recently completed Front-End courses from{" "}
+              <a
+                href="https://ithillel.ua"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hillel IT School
+              </a>{" "}
+              and received a{" "}
+              <a
+                href="https://certificate.ithillel.ua/view/89303581"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {" "}
+                certificate
+              </a>
+              . In addition to a new profession, i have two years of web
+              research & data entry experience in the{" "}
               <a
                 href="https://globaldev.tech"
                 target="_blank"

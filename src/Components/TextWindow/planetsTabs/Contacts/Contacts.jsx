@@ -23,7 +23,7 @@ export function Contacts() {
             <a
               href="https://www.linkedin.com/in/mykhailo-rudenko-a6307314b/"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               <img
                 src="/images/icons/linkedin.png"
@@ -33,14 +33,18 @@ export function Contacts() {
             <a
               href="https://github.com/Frelior"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               <img
                 src="/images/icons/github.png"
                 alt="GitHub"
               />
             </a>
-            <a href="mailto:fernandosolotop@gmail.com">
+            <a
+              href="mailto:fernandosolotop@gmail.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img
                 src="/images/icons/mail.png"
                 alt="Mail"
@@ -49,7 +53,7 @@ export function Contacts() {
             <a
               href="https://t.me/annoyedartist"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               <img
                 src="/images/icons/telegram.png"
