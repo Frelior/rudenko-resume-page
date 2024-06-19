@@ -1,11 +1,15 @@
 import { StyledProjects } from "./Projects.js"
+import TextTab from "../TextTab/TextTab.jsx"
 
 export function Projects() {
   return (
-    <StyledProjects>
-      <div className="title">
-        <h1>Projects</h1>
-      </div>
-    </StyledProjects>
+    <TextTab>
+      <StyledProjects>
+        <div className="title">
+          <h1>Projects</h1>
+        </div>
+        <div className="content"></div>
+      </StyledProjects>
+    </TextTab>
   )
 }

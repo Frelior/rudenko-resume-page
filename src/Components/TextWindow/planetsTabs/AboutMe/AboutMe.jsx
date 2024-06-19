@@ -5,10 +5,10 @@ export function AboutMe() {
   return (
     <TextTab>
       {" "}
-      <StyledAboutMe className="tab">
+      <StyledAboutMe>
         <div className="title">
           <h1>About Me</h1>
-          <hr />
+          {/* <hr /> */}
         </div>
         <div className="content">
           <div>

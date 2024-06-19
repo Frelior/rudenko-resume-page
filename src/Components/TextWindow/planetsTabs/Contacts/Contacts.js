@@ -1,23 +1,39 @@
 import styled from "styled-components"
 
 export const StyledContacts = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-
-  & .title {
-    padding: 1vw 0 4vw 0;
-
-    & h1 {
-      text-shadow: 0vw 0vw 3vw white;
-      background-color: var(--contacts-title-bg-color);
+  .location {
+    margin-bottom: 2vw;
+    h3 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5vw;
+    }
+    img {
+      width: 2.5vw;
+      border: 0.2vw solid #fff;
       border-radius: 50%;
-      box-shadow: 0 0 3vw 4vw var(--contacts-title-bg-color);
     }
   }
 
-  & .content {
-    padding-bottom: 4vw;
+  .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    flex-wrap: wrap;
+    a {
+      text-decoration: none;
+      border-radius: 25%;
+      width: 20%;
+      img {
+        width: 100%;
+        border-radius: 25%;
+        transition: box-shadow 0.1s ease;
+        &:hover {
+          box-shadow: 0 0 0.2vw 0.2vw #fff, 0 0 0.5vw 0.1vw #fff;
+        }
+      }
+    }
   }
 `
