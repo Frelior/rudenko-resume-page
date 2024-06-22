@@ -40,19 +40,26 @@ export function Projects() {
               Also, here are the pages with my homework assignments that I
               completed during the course:
               <div>
-                <a href="https://frelior.github.io/Rudenko-FrontEndPro-12.01.2024/">
+                <a
+                  href="https://frelior.github.io/Rudenko-FrontEndPro-12.01.2024/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   Homeworks without React
                 </a>
                 <br />
-                <a href="https://frelior.github.io/homework33-react">
+                <a
+                  href="https://frelior.github.io/homework33-react"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   Homeworks with React
                 </a>
               </div>
               <p>
-                In homeworks I used many fundamental technologies and tools -
-                AJAX, promises, fetch, Axios, local/session storages, cookies,
-                React, formik, yup, react-router, Redux toolkit, Redux-thunk
-                etc.
+                In homeworks I used such technologies and tools as AJAX,
+                promises, fetch, Axios, local/session storages, cookies, React,
+                formik, yup, react-router, Redux toolkit, Redux-thunk etc.
               </p>
             </p>
           </div>

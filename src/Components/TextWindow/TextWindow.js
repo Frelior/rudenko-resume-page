@@ -4,7 +4,7 @@ export const StyledTextWindow = styled.div`
   --about-me-title-bg-color: #0c78ff5c;
   --contacts-title-bg-color: #e83efb5c;
   --projects-title-bg-color: #ff9a695c;
-  --resume-title-bg-color: #57ffd05c;
+  --goals-title-bg-color: #57ffd05c;
   --skills-title-bg-color: #4444445c;
 
   position: absolute;

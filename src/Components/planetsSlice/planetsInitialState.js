@@ -1,8 +1,8 @@
 export const planetsInitialState = [
   {
     id: 1,
-    name: "Resume",
-    src: "/images/planets/resume.png",
+    name: "Goals",
+    src: "/images/planets/goals.png",
     rotateDegrees: 0,
     position: 1,
   },
