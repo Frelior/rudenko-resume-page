@@ -19,6 +19,8 @@ export function Skills() {
             <li>Redux toolkit</li>
             <li>Styled-components</li>
             <li>Formik</li>
+            <li>Bootstrap</li>
+            <li>React-just-parallax</li>
             <li>Git</li>
             <li>GitHub</li>
             <li>Photoshop</li>

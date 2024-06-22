@@ -70,4 +70,7 @@ export const StyledTextTab = styled.div`
       text-align: left;
     }
   }
+    .underline {
+      text-decoration: underline;
+    }
 `
