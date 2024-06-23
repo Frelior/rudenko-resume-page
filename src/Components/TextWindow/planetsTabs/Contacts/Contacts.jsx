@@ -12,7 +12,7 @@ export function Contacts() {
           <div className="location">
             <h3>
               <img
-                src="/images/icons/location.png"
+                src="./images/link-icons/location.png"
                 alt="location"
               />
               Where am i from?
@@ -26,7 +26,7 @@ export function Contacts() {
               rel="noreferrer noopener"
             >
               <img
-                src="/images/icons/linkedin.png"
+                src="./images/link-icons/linkedin.png"
                 alt="LinkedIn"
               />
             </a>
@@ -36,7 +36,7 @@ export function Contacts() {
               rel="noreferrer noopener"
             >
               <img
-                src="/images/icons/github.png"
+                src="./images/link-icons/github.png"
                 alt="GitHub"
               />
             </a>
@@ -46,7 +46,7 @@ export function Contacts() {
               rel="noreferrer noopener"
             >
               <img
-                src="/images/icons/mail.png"
+                src="./images/link-icons/mail.png"
                 alt="Mail"
               />
             </a>
@@ -56,7 +56,7 @@ export function Contacts() {
               rel="noreferrer noopener"
             >
               <img
-                src="/images/icons/telegram.png"
+                src="./images/link-icons/telegram.png"
                 alt="Telegram"
               />
             </a>

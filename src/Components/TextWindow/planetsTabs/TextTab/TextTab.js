@@ -1,5 +1,4 @@
 import styled from "styled-components"
-import "../textVariables.css"
 
 export const StyledTextTab = styled.div`
   display: flex;
@@ -22,9 +21,9 @@ export const StyledTextTab = styled.div`
 
     h1 {
       text-shadow: 0vw 0vw 3vw white;
-      background-color: var(--about-me-title-bg-color);
+      background-color: var(--text-tab-title-bg-color);
       border-radius: 50%;
-      box-shadow: 0 0 3vw 4vw var(--about-me-title-bg-color);
+      box-shadow: 0 0 3vw 4vw var(--text-tab-title-bg-color);
     }
   }
 
@@ -70,7 +69,7 @@ export const StyledTextTab = styled.div`
       text-align: left;
     }
   }
-    .underline {
-      text-decoration: underline;
-    }
+  .underline {
+    text-decoration: underline;
+  }
 `

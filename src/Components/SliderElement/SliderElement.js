@@ -9,15 +9,17 @@ export const StyledSliderElement = styled.div`
 
   .imgBox {
     position: absolute;
-    width: 5vw;
-    height: 5vw;
+    width: var(--planet-size);
+    height: var(--planet-size);
+    min-width: var(--planet-min-size);
+    min-height: var(--planet-min-size);
     transform: translate(-50%, -50%);
     top: 50%;
     border: 0.3vw solid #191919;
     border-radius: 50%;
     box-shadow: 0 0 0.2vw 0.2vw #222, 0 0 0.5vw 0.1vw #fff;
     pointer-events: all;
-    transition: rotate 0.5s ease, box-shadow 0.05s ease;
+    transition: box-shadow 0.15s ease-out;
     overflow: hidden;
     cursor: pointer;
 
@@ -50,22 +52,25 @@ export const StyledSliderElement = styled.div`
       object-fit: cover;
       border-radius: 50%;
       transform: rotate(${(props) => props.$planetrotate}deg);
-      transition: all var(--animation-duration) ease;
+      transition: all var(--slider-rotating-animation-duration) ease;
 
       img {
         width: 100%;
         height: 100%;
       }
 
-      .title {
+      .button-title {
         width: 80%;
         text-shadow: 0 0 1vw #222;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 1vw;
+        font-size: var(--planet-font-size);
         z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         text-align: center;
         color: #fff;
         text-shadow: 0vw 0.1vw 0.5vw #000;

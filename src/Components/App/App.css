@@ -1,15 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Maps&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Lines&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("../../css/colors.css");
+@import url("../../css/variables.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  height: 100vh;
+  font-size: var(--font-size);
+}
 .App {
-  font-family: "Concert One", sans-serif;
+  font-family: "Noto Sans", sans-serif;
   height: 100%;
   width: 100%;
   margin: auto auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/public/images/light-blur.jpg);
+  background-image: url(/public/images/app-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -19,7 +31,16 @@
   overflow: hidden;
   z-index: 0;
 }
-
+h1,
+h2,
+h3,
+.button-title {
+  font-family: "Concert One", sans-serif;
+  font-weight: normal;
+}
+h1 {
+  font-weight: bold;
+}
 .no-select {
   user-select: none;
   -webkit-user-select: none;

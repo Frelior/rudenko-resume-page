@@ -1,5 +1,5 @@
 import { StyledSliderElement } from "./SliderElement.js"
-import { useDispatch } from "react-redux"
+import { useDispatch, useSelector } from "react-redux"
 import {
   rotateCircle,
   rotateToggle,
@@ -10,6 +10,7 @@ import { useEffect, useRef } from "react"
 export default function SliderElement({ sliderItem }) {
   const dispatch = useDispatch()
   const timeoutRef = useRef(null)
+  const fadeOutTime = useSelector((state) => state.planets.at(-1).fadeOutTime)
 
   const handleClick = (sliderItem) => {
     if (sliderItem.position !== 5) {
@@ -19,7 +20,7 @@ export default function SliderElement({ sliderItem }) {
       timeoutRef.current = setTimeout(() => {
         dispatch(changePositions(sliderItem))
         dispatch(rotateToggle())
-      }, 300)
+      }, fadeOutTime)
     }
   }
 
@@ -46,7 +47,7 @@ export default function SliderElement({ sliderItem }) {
         onClick={() => handleClick(sliderItem)}
       >
         <div className="planet">
-          <p className="title">{sliderItem.name}</p>
+          <p className="button-title">{sliderItem.name}</p>
           <img
             src={sliderItem.src}
             alt=""

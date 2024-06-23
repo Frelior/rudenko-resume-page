@@ -1,0 +1,14 @@
+:root {
+  --slider-rotating-animation-duration: 0.7s;
+
+  --text-tab-title-bg-color: #0c78ff5c;
+
+  --font-size: calc(0.7vw + 0.7vh);
+  --planet-font-size: clamp(0.9rem, 1vw, 2.2rem);
+  --slider-size: 38vw;
+  --slider-min-size: 480px;
+  --text-window-size: 34vw;
+  --text-window-min-size: 420px;
+  --planet-size: 5vw;
+  --planet-min-size: 68px;
+}

@@ -1,0 +1,19 @@
+:root {
+  /* --text-shadow-orange: 0px 1px 4px #000, 3px 3px 0 #ff7f00, -3px -3px 0 #ff7f00,
+    3px -3px 0 #ff7f00, -3px 3px 0 #ff7f00, 3px 3px 0 #ff7f00; */
+  /* --text-shadow-blue: 0px 1px 4px #000, 3px 3px 0 #2472ff, -3px -3px 0 #2472ff,
+    3px -3px 0 #2472ff, -3px 3px 0 #2472ff, 3px 3px 0 #2472ff;
+  --text-shadow-red: 0px 1px 4px #000, 3px 3px 0 #ff2626, -3px -3px 0 #ff2626,
+    3px -3px 0 #ff2626, -3px 3px 0 #ff2626, 3px 3px 0 #ff2626;
+  --text-shadow-purple: 0px 1px 4px #000, 3px 3px 0 #df39ff, -3px -3px 0 #df39ff,
+    3px -3px 0 #df39ff, -3px 3px 0 #df39ff, 3px 3px 0 #df39ff; */
+
+  --text-shadow-orange: 0px 3px 2px #000, -1px 3px 4px #ff7f00,
+    -3px 1px 4px #ff7f00;
+  --text-shadow-blue: 0px 3px 2px #000, -1px 3px 4px #2472ff,
+    -3px 1px 4px #2472ff;
+  --text-shadow-red: 0px 3px 2px #000, -1px 3px 4px #ff2626,
+    -3px 1px 4px #ff2626;
+  --text-shadow-purple: 0px 3px 2px #000, -1px 3px 4px #df39ff,
+    -3px 1px 4px #df39ff;
+}

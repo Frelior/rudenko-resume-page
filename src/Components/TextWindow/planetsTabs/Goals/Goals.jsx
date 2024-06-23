@@ -20,7 +20,7 @@ export function Goals() {
           <p>
             In addition to web development, I would like to do mobile
             development in the future, so{" "}
-            <span className="blue underline">I will study Java or Kotlin</span>.
+            <span className="blue ">I will study Java or Kotlin</span>.
           </p>
           <br />
           <p>

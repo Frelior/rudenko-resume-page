@@ -12,9 +12,7 @@ export function AboutMe() {
           <div>
             <h2>Hello!</h2>
             <p>
-              My name is <span className="blue">Mykhailo</span>. <br /> You can
-              call me
-              <span className="orange"> Misha or Michael</span>. <br />I am a
+              My name is <span className="blue">Mykhailo</span>. <br />I am a
               beginner Front-End developer{" "}
               <span className="red underline">yet</span>.
             </p>
