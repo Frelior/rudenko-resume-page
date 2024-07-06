@@ -69,9 +69,9 @@ export function Projects() {
               Also, I spent a little time getting to know Angular and did a
               little password validation.
               <br />
-              <a href="https://github.com/Frelior/password-strength">Github</a>
+              <a href="https://github.com/Frelior/password-strength" target="_blank" rel="noreferrer noopener">Github</a>
               <br />
-              <a href="https://frelior.github.io/password-strength/">Page</a>
+              <a href="https://frelior.github.io/password-strength/" target="_blank" rel="noreferrer noopener">Page</a>
             </p>
           </div>
         </div>
