@@ -63,6 +63,17 @@ export function Projects() {
               </p>
             </p>
           </div>
+          <hr />
+          <div className="angular">
+            <p>
+              Also, I spent a little time getting to know Angular and did a
+              little password validation.
+              <br />
+              <a href="https://github.com/Frelior/password-strength">Github</a>
+              <br />
+              <a href="https://frelior.github.io/password-strength/">Page</a>
+            </p>
+          </div>
         </div>
       </StyledProjects>
     </TextTab>
