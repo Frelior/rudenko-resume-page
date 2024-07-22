@@ -12,3 +12,13 @@
   --planet-size: 5vw;
   --planet-min-size: 68px;
 }
+
+@media screen and (max-width: 480px) {
+  :root {
+    --font-size: calc(1.2vw + 1.2vh);
+    --text-window-min-size: 300px;
+    --slider-min-size: 350px;
+    --planet-min-size: 55px;
+    --planet-font-size: clamp(0.7rem, 1vw, 2.2rem);
+  }
+}

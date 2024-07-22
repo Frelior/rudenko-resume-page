@@ -6,6 +6,11 @@ export const StyledSkills = styled.div`
     flex-direction: column;
     align-items: center;
     margin: 1vw;
-    list-style-type: none;
+    li {
+      // list-style-type: disc;
+      text-wrap: pretty;
+      text-align: center;
+      border-bottom: 0.2vw solid #ffffff1a;
+    }
   }
 `

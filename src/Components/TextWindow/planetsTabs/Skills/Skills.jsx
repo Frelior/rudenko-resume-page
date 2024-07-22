@@ -14,13 +14,19 @@ export function Skills() {
             <li>HTML5</li>
             <li>CSS3</li>
             <li>SCSS</li>
-            <li>JavaScript ES14</li>
+            <li>JavaScript (ES6+)</li>
             <li>React</li>
             <li>Redux toolkit</li>
+            <li>
+              TypeScript: Basic types, Interfaces, Generics, Type Assertions
+            </li>
+            <li>Angular: Components, Modules, Services, Angular CLI</li>
+            <li>Build Tools: Webpack, Babel</li>
+            <li>Package Managers: npm, Yarn</li>
+            <li>Jest</li>
+            <li>API Integration: RESTful APIs, Fetch, Axios</li>
             <li>Styled-components</li>
-            <li>Formik</li>
             <li>Bootstrap</li>
-            <li>React-just-parallax</li>
             <li>Git</li>
             <li>GitHub</li>
             <li>Photoshop</li>

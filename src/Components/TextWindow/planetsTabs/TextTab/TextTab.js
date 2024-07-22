@@ -15,6 +15,10 @@ export const StyledTextTab = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    @media screen and (max-width: 480px) {
+      padding: 2vw 0 10vw 0;
+    }
+
     hr {
       width: 100%;
     }

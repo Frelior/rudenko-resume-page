@@ -29,4 +29,11 @@ export const StyledTextWindow = styled.div`
     scrollbar-width: none;
     opacity: 1;
     transition: opacity 0.3s ease;
+  }
+
+  @media screen and (max-width: 480px) {
+    & .text-block {
+      padding: 5% 5%;
+    }
+  }
 `
