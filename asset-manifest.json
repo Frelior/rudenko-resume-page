@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rudenko-resume-page/static/css/main.25dc00a9.css",
-    "main.js": "/rudenko-resume-page/static/js/main.1223249e.js",
+    "main.js": "/rudenko-resume-page/static/js/main.ffc7bc84.js",
     "static/media/app-background.jpg": "/rudenko-resume-page/static/media/app-background.bcb6b7a7ad2eb753b731.jpg",
     "index.html": "/rudenko-resume-page/index.html",
     "main.25dc00a9.css.map": "/rudenko-resume-page/static/css/main.25dc00a9.css.map",
-    "main.1223249e.js.map": "/rudenko-resume-page/static/js/main.1223249e.js.map"
+    "main.ffc7bc84.js.map": "/rudenko-resume-page/static/js/main.ffc7bc84.js.map"
   },
   "entrypoints": [
     "static/css/main.25dc00a9.css",
-    "static/js/main.1223249e.js"
+    "static/js/main.ffc7bc84.js"
   ]
 }
