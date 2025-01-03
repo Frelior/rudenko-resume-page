@@ -67,6 +67,9 @@ export const StyledTextTab = styled.div`
       &:visited {
         color: #3584ff;
       }
+      &:hover {
+        text-shadow: 0vw 0vw 0.5vw #3597ff;
+      }
     }
     ul {
       list-style-type: none;

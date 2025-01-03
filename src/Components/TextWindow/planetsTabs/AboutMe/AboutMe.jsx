@@ -13,8 +13,7 @@ export function AboutMe() {
             <h2>Hello!</h2>
             <p>
               My name is <span className="blue">Mykhailo</span>. <br />I am a
-              beginner Front-End developer{" "}
-              <span className="red underline">yet</span>.
+              Front-End developer.
             </p>
             <br />
             <p>
